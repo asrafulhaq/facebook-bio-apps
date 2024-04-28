@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="fb-bio-card">
+      <div class="fb-bio-header">
+        <h3>Intro</h3>
+      </div>
+      <div class="fb-bio-body">
+        <div class="fb-bio-add">
+          <button class="btn-primary" id="bio-add">Add bio</button>
+        </div>
+        <div class="fb-bio-edit">
+          <textarea
+            id="bio-content"
+            placeholder="Describe who you are"
+          ></textarea>
+          <p id="remain">101 characters remaining</p>
+          <div class="btns">
+            <button class="btn-primary btn-regular" id="bio-cancel">
+              Cancel
+            </button>
+            <button class="btn-primary btn-regular btn-blue" id="bio-save">
+              Save
+            </button>
+          </div>
+        </div>
+        <div class="fb-bio-show">
+          <p id="bio-data">- Traveler of the time of infinity -</p>
+          <button class="btn-primary" id="bio-edit">Edit bio</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./src/data.js"></script>
+    <script src="./src/functions.js"></script>
+    <script src="./src/models.js"></script>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
